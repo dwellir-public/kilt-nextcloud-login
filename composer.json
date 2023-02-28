@@ -1,0 +1,17 @@
+{
+    "name": "johanmlg/kilt-nextcloud-login",
+    "require": {
+        "dwellir-public/kilt-sdk": "@dev"
+    },
+    "repositories": {
+        "dwellir-public/kilt-sdk": {
+            "type": "vcs",
+            "url": "https://github.com/dwellir-public/kilt-sdk"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "mouf/nodejs-installer": true
+        }
+    }
+}

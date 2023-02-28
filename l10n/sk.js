@@ -1,0 +1,12 @@
+OC.L10N.register(
+    "sociallogin",
+    {
+    "Save" : "Uložiť",
+    "None" : "Žiadne",
+    "Secret" : "Tajný kľúč",
+    "Title" : "Názov",
+    "Client Secret" : "Súkromné heslo klienta",
+    "Scope" : "Rozsah",
+    "Consumer key" : "Kĺúč spotrebiteľa"
+},
+"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

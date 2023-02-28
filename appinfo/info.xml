@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>kiltnextcloudlogin</id>
+    <name>Kilt Nextcloud Login</name>
+    <summary>App that allows users to log in to nextcloud using KILT</summary>
+    <description><![CDATA[App that allows users to log in to nextcloud using KILT]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author>johanmlg</author>
+    <namespace>KiltNextcloudLogin</namespace>
+    <category>integration</category>
+    <repository>https://github.com/dwellir-public/kilt-nextcloud-login</repository>
+    <dependencies>
+        <nextcloud min-version="25" max-version="25" />
+    </dependencies>
+</info>
