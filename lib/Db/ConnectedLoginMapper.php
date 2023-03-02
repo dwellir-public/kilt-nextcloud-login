@@ -35,7 +35,7 @@ use OCP\AppFramework\Db\QBMapper;
 class ConnectedLoginMapper extends QBMapper {
 
     public function __construct(IDBConnection $db) {
-        parent::__construct($db, 'sociallogin_connect', ConnectedLogin::class);
+        parent::__construct($db, 'kiltnextcloudlogin_connect', ConnectedLogin::class);
     }
 
     /**
