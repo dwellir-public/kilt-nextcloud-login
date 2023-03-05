@@ -449,7 +449,7 @@ class ProviderService
             $this->session->remove('sociallogin_logout_url');
         }
 
-        $profile->data['default_group'] = $config['default_group'];
+        //$profile->data['default_group'] = $config['default_group'];
 
         if ($provider === 'telegram') {
             $provider = 'tg'; //For backward compatibility

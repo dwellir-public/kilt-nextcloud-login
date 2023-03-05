@@ -268,9 +268,9 @@ class Kilt extends HybridauthKilt
     {
         $userProfile = parent::getUserProfile();
 
-        if (null !== $groups = $userProfile->data['groups']) {
-            $userProfile->data['groups'] = $this->strToArray($groups);
-        }
+//        if (null !== $groups = $userProfile->data['groups']) {
+//            $userProfile->data['groups'] = $this->strToArray($groups);
+//        }
 
         return $userProfile;
     }
